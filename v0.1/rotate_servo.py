@@ -1,5 +1,7 @@
 import sys
 import RPi.GPIO as GPIO
+from time import sleep
+
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(02, GPIO.OUT)
 GPIO.setup(03, GPIO.OUT)
